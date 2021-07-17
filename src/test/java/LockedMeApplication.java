@@ -72,6 +72,7 @@ public class LockedMeApplication extends BaseLockedMe {
 
                             default:
                                 System.out.println("Please choose the correct option ");
+
                                 break;
                         }
                     }
