@@ -1,0 +1,59 @@
+ LockedMeApplication
+======  Welcome To LockedMe.com Application =======
+======  save  your files using locked me applications =======
+======  Press 1 to add files to locked me =======
+======  press 2 to delete your files =======
+======  press 3 to display your files =======
+======  press 4 to search your files =======
+======  press 5 to say goodbye to application =======
+======  Press 1 to get started with adding files to locked me =======
+1
+
+---------------------------------------
+Please provide your User ID : 
+TravelWithMECorpDocs
+Please enter the number of files you want to Add: 4
+Please enter the file names you want to Add: TravelEmpDocs
+TravelFuelDocs
+TraverlDefGre
+TravelDFRE
+The filenames of TravelWithMECorpDocs
+TravelDFRE
+TravelEmpDocs
+TravelFuelDocs
+TraverlDefGre
+Files are added succesfully 
+Press use the other options above 
+======  Press 1 to add files to locked me =======
+======  press 2 to delete your files =======
+======  press 3 to display your files =======
+======  press 4 to search your files =======
+======  press 5 to say goodbye to application =======
+2
+Please be aware that you are removing your files
+Please provide your User ID : 
+TravelWithMECorpDocs
+Please enter the number of files you want to delete: 2
+TravelEmpDocs
+TravelFuelDocs
+The filenames of TravelWithMECorpDocs
+TravelDFRE
+TraverlDefGre
+Please choose another option to continue : 
+======  Press 1 to add files to locked me =======
+======  press 2 to delete your files =======
+======  press 3 to display your files =======
+======  press 4 to search your files =======
+======  press 5 to say goodbye to application =======
+4
+Please provide your User ID : 
+TravelWithMECorpDocs
+Please enter the file name you want to search: TravelDFRE
+The search is succesful your file name isTravelDFRE
+Please choose another option to continue : ======  Press 1 to add files to locked me =======
+======  press 2 to delete your files =======
+======  press 3 to display your files =======
+======  press 4 to search your files =======
+======  press 5 to say goodbye to application =======
+5
+Thanks for using the Locked me application

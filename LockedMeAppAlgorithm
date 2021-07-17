@@ -1,0 +1,30 @@
+Algorithm
+
+
+Locked me Algorithm and data structures
+
+1:Prompt user to choose option in add files,delete files,List files and add more files
+
+2:If user enters option 1 ask user to enter the no of the files to add
+
+3:Prompt users to enter files
+
+4:Add all the files 
+
+5:If user enter 2 option then ask the user to enter no of files to delete
+
+6:Delete the entered files
+
+7:if user enter option 3 ask user to display your files
+
+8:if user enter option 4 ask user file to search the file
+
+9:if user enter option 5 to exit from application
+
+
+ Data structures used are 
+
+1:Map
+
+2:ArrayList
+
