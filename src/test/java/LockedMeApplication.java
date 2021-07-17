@@ -9,8 +9,6 @@ public class LockedMeApplication extends BaseLockedMe {
         System.out.println("======  Welcome To LockedMe.com Application =======");
         System.out.println("======  save  your files using locked me applications =======");
         System.out.println("======  Press 1 to get started with adding files to locked me =======");
-        System.out.println("======  press 2 to manage your files =======");
-        System.out.println("======  press 3 to retrieve your files =======");
         int options = 0;
         int suboption = 0;
         String userId = null;
@@ -33,11 +31,12 @@ public class LockedMeApplication extends BaseLockedMe {
                         switch (suboption) {
                             case 1:
                                 addNewFileAndDisplay(userId);
-                                System.out.print("Please choose another option to continue : ");
+                                printStatements();
                                 break;
                             case 2:
                                 deleteGivenFilesFromUser(userId);
                                 System.out.print("Please choose another option to continue : ");
+                                printStatements();
                                 break;
 
                             case 3:
@@ -46,6 +45,8 @@ public class LockedMeApplication extends BaseLockedMe {
                                 userId = scanToFindFiles.next();
                                 Utils.listFilesOfUser(userId);
                                 System.out.print("Please choose another option to continue : ");
+                                printStatements();
+
                                 break;
 
                             case 4:
@@ -53,12 +54,14 @@ public class LockedMeApplication extends BaseLockedMe {
                                 System.out.println("Please provide your User ID : ");
                                 userId = scanTolistFiles.next();
                                 System.out.print("Please enter the file name you want to search: ");
-                                Scanner scanToSearchFile=new Scanner(System.in);
+                                Scanner scanToSearchFile = new Scanner(System.in);
 
-                                scanToSearchFile=new Scanner(System.in);
-                                Utils.searchFileWithGivenUserId(userId,scanToSearchFile.next());
+                                scanToSearchFile = new Scanner(System.in);
+                                Utils.searchFileWithGivenUserId(userId, scanToSearchFile.next());
 
                                 System.out.print("Please choose another option to continue : ");
+                                printStatements();
+
                                 break;
 
                             case 5:

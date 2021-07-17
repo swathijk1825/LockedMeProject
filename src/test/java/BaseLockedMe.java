@@ -54,7 +54,7 @@ public class BaseLockedMe {
             Utils.listFilesOfUser(userId);
     }
 
-    public void printStatements()
+    public static void printStatements()
     {
 
         System.out.println("======  Press 1 to add files to locked me =======");
